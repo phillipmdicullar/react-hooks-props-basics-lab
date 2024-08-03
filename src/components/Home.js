@@ -6,8 +6,9 @@ function Home(props) {
       <h1 style={{ color: props.color }}>
         {props.name} is a Web Developer from {props.city}
       </h1>
+
     </div>
   );
 }
-
+//just export and everything will be fine since props have already been placed
 export default Home;
